@@ -1,4 +1,4 @@
-public class BrigadaTecnica  extends EquipoEmergencia implements IReparador{
+public class BrigadaTecnica  extends EquipoEmergencia implements Reparador {
 
     public BrigadaTecnica(String nombre) {
         super(nombre);

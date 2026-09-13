@@ -6,8 +6,11 @@ public class Main {
         DronRescate dron = new DronRescate("Dron de rescate");
         BrigadaTecnica tecnica = new BrigadaTecnica("Brigada Tecnica");
 
+        dron.mostrarNombre();
+        dron.atenderEmergencia();
         dron.volar();
         tecnica.reparar();
+
 
         medica.mostrarNombre();
         medica.atenderEmergencia();
@@ -15,7 +18,6 @@ public class Main {
        tecnica.mostrarNombre();
        tecnica.atenderEmergencia();
 
-        dron.mostrarNombre();
-        dron.atenderEmergencia();
+
     }
 }
