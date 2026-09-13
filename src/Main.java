@@ -2,9 +2,12 @@ public class Main {
     public static void main(String[] args) {
 
         EquipoEmergencia medica = new BrigadaMedica("Brigada medica");
-        EquipoEmergencia tecnica = new BrigadaTecnica("Brigada tecnica");
-        EquipoEmergencia dron = new DronRescate("Dron Rescate");
 
+        DronRescate dron = new DronRescate("Dron de rescate");
+        BrigadaTecnica tecnica = new BrigadaTecnica("Brigada Tecnica");
+
+        dron.volar();
+        tecnica.reparar();
 
         medica.mostrarNombre();
         medica.atenderEmergencia();
